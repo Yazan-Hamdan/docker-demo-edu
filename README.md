@@ -17,6 +17,12 @@ This will create a Docker image named todo-list. You can then run the container 
 This will start the container and map port 8080 on your host machine to port 8080 inside the container. You should be able to
 access the application by visiting http://localhost in your web browser.
 
+Note that the ``run`` command creates a new cotainer then start it
+
+if you want to start an existing container:
+
+``docker start <container_name|container ID>``
+
 
 ## docker-compose.yml
 
